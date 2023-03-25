@@ -49,3 +49,7 @@ Dive-in of 'MatthewSanchez_Assignment5.ipynb' code:
 16) The model is predicted on and the results are stored in a variable. The confusion matrix is defined and generated.
 16) Finally the generator loss from the original SRGAN training is plotted and outputted at the bottom  
 
+RESULTS DISCUSSION
+- The classifier that was generated from Assignment 2 was effective and able to classify the DME and DRUSEN Images with solid accuracy and minimized loss after 20 epochs. Comparing this to Assignment 5, Assignment 2's code was more effective at classifying the images becasue they were the original images and not a generated image from 2 former images. To add onto this, since Assignment 5's classifer was only run for 120 epochs and not longer, the images did not look as high quality as they should. As a result the images negatively affected the generator and the results from that clearly are shown with sparatic losses in the graph. Furthermore when classifying the images with Assignment 5, the code from Assignment 2 had trouble detecting it resulting in a confusion matrix that was not as effective at showcasing the output.
+
+- To Summarize, from my tests and data collection/processing, the classifier from Assignment 2 and Assignment 1 are better at classifying DME and DRUSEN images at a more effective rate than super resolution images. Additionally they are more efficent and can be used at ease.
